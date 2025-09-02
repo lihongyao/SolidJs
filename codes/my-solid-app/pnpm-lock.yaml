@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@solidjs/router':
-        specifier: ^0.15.3
-        version: 0.15.3(solid-js@1.9.5)
       solid-js:
         specifier: ^1.9.5
         version: 1.9.5
@@ -337,55 +334,46 @@ packages:
     resolution: {integrity: sha512-9OwUnK/xKw6DyRlgx8UizeqRFOfi9mf5TYCw1uolDaJSbUmBxP85DE6T4ouCMoN6pXw8ZoTeZCSEfSaYo+/s1w==}
     cpu: [arm]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-arm-musleabihf@4.27.4':
     resolution: {integrity: sha512-Vgdo4fpuphS9V24WOV+KwkCVJ72u7idTgQaBoLRD0UxBAWTF9GWurJO9YD9yh00BzbkhpeXtm6na+MvJU7Z73A==}
     cpu: [arm]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-arm64-gnu@4.27.4':
     resolution: {integrity: sha512-pleyNgyd1kkBkw2kOqlBx+0atfIIkkExOTiifoODo6qKDSpnc6WzUY5RhHdmTdIJXBdSnh6JknnYTtmQyobrVg==}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-arm64-musl@4.27.4':
     resolution: {integrity: sha512-caluiUXvUuVyCHr5DxL8ohaaFFzPGmgmMvwmqAITMpV/Q+tPoaHZ/PWa3t8B2WyoRcIIuu1hkaW5KkeTDNSnMA==}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-powerpc64le-gnu@4.27.4':
     resolution: {integrity: sha512-FScrpHrO60hARyHh7s1zHE97u0KlT/RECzCKAdmI+LEoC1eDh/RDji9JgFqyO+wPDb86Oa/sXkily1+oi4FzJQ==}
     cpu: [ppc64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-gnu@4.27.4':
     resolution: {integrity: sha512-qyyprhyGb7+RBfMPeww9FlHwKkCXdKHeGgSqmIXw9VSUtvyFZ6WZRtnxgbuz76FK7LyoN8t/eINRbPUcvXB5fw==}
     cpu: [riscv64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-s390x-gnu@4.27.4':
     resolution: {integrity: sha512-PFz+y2kb6tbh7m3A7nA9++eInGcDVZUACulf/KzDtovvdTizHpZaJty7Gp0lFwSQcrnebHOqxF1MaKZd7psVRg==}
     cpu: [s390x]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-x64-gnu@4.27.4':
     resolution: {integrity: sha512-Ni8mMtfo+o/G7DVtweXXV/Ol2TFf63KYjTtoZ5f078AUgJTmaIJnj4JFU7TK/9SVWTaSJGxPi5zMDgK4w+Ez7Q==}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-x64-musl@4.27.4':
     resolution: {integrity: sha512-5AeeAF1PB9TUzD+3cROzFTnAJAcVUGLuR8ng0E0WXGkYhp6RD6L+6szYVX+64Rs0r72019KHZS1ka1q+zU/wUw==}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-win32-arm64-msvc@4.27.4':
     resolution: {integrity: sha512-yOpVsA4K5qVwu2CaS3hHxluWIK5HQTjNV4tWjQXluMiiiu4pJj4BN98CvxohNCpcjMeTXk/ZMJBRbgRg8HBB6A==}
@@ -401,11 +389,6 @@ packages:
     resolution: {integrity: sha512-3j4jx1TppORdTAoBJRd+/wJRGCPC0ETWkXOecJ6PPZLj6SptXkrXcNqdj0oclbKML6FkQltdz7bBA3rUSirZug==}
     cpu: [x64]
     os: [win32]
-
-  '@solidjs/router@0.15.3':
-    resolution: {integrity: sha512-iEbW8UKok2Oio7o6Y4VTzLj+KFCmQPGEpm1fS3xixwFBdclFVBvaQVeibl1jys4cujfAK5Kn6+uG2uBm3lxOMw==}
-    peerDependencies:
-      solid-js: ^1.8.6
 
   '@tailwindcss/node@4.0.7':
     resolution: {integrity: sha512-dkFXufkbRB2mu3FPsW5xLAUWJyexpJA+/VtQj18k3SUiJVLdpgzBd1v1gRRcIpEJj7K5KpxBKfOXlZxT3ZZRuA==}
@@ -445,28 +428,24 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@tailwindcss/oxide-linux-arm64-musl@4.0.7':
     resolution: {integrity: sha512-WHYs3cpPEJb/ccyT20NOzopYQkl7JKncNBUbb77YFlwlXMVJLLV3nrXQKhr7DmZxz2ZXqjyUwsj2rdzd9stYdw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@tailwindcss/oxide-linux-x64-gnu@4.0.7':
     resolution: {integrity: sha512-7bP1UyuX9kFxbOwkeIJhBZNevKYPXB6xZI37v09fqi6rqRJR8elybwjMUHm54GVP+UTtJ14ueB1K54Dy1tIO6w==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@tailwindcss/oxide-linux-x64-musl@4.0.7':
     resolution: {integrity: sha512-gBQIV8nL/LuhARNGeroqzXymMzzW5wQzqlteVqOVoqwEfpHOP3GMird5pGFbnpY+NP0fOlsZGrxxOPQ4W/84bQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@tailwindcss/oxide-win32-arm64-msvc@4.0.7':
     resolution: {integrity: sha512-aH530NFfx0kpQpvYMfWoeG03zGnRCMVlQG8do/5XeahYydz+6SIBxA1tl/cyITSJyWZHyVt6GVNkXeAD30v0Xg==}
@@ -649,28 +628,24 @@ packages:
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   lightningcss-linux-arm64-musl@1.29.1:
     resolution: {integrity: sha512-UKMFrG4rL/uHNgelBsDwJcBqVpzNJbzsKkbI3Ja5fg00sgQnHw/VrzUTEc4jhZ+AN2BvQYz/tkHu4vt1kLuJyw==}
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   lightningcss-linux-x64-gnu@1.29.1:
     resolution: {integrity: sha512-u1S+xdODy/eEtjADqirA774y3jLcm8RPtYztwReEXoZKdzgsHYPl0s5V52Tst+GKzqjebkULT86XMSxejzfISw==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   lightningcss-linux-x64-musl@1.29.1:
     resolution: {integrity: sha512-L0Tx0DtaNUTzXv0lbGCLB/c/qEADanHbu4QdcNOXLIe1i8i22rZRpbT3gpWYsCh9aSL9zFujY/WmEXIatWvXbw==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   lightningcss-win32-arm64-msvc@1.29.1:
     resolution: {integrity: sha512-QoOVnkIEFfbW4xPi+dpdft/zAKmgLgsRHfJalEPYuJDOWf7cLQzYg0DEh8/sn737FaeMJxHZRc1oBreiwZCjog==}
@@ -1126,10 +1101,6 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.27.4':
     optional: true
-
-  '@solidjs/router@0.15.3(solid-js@1.9.5)':
-    dependencies:
-      solid-js: 1.9.5
 
   '@tailwindcss/node@4.0.7':
     dependencies:
