@@ -227,7 +227,7 @@ export default function BlogLayout(props: RouteSectionProps) {
 }
 ```
 
-**注意**：创建 blog/index.tsx 或 blog/(blogIndex).tsx 与布局不同，它们仅用于渲染索引路由（index route）。
+> **注意**：创建 blog/index.tsx 或 blog/(blogIndex).tsx 与布局不同，它们仅用于渲染索引路由（index route）。
 
 ### 重命名 Index
 
@@ -246,7 +246,7 @@ export default function BlogLayout(props: RouteSectionProps) {
         |-- job-1.tsx             // example.com/work/job-1
         |-- job-2.tsx
     |-- socials/
-        |-- (socials).tsx           // example.com/socials
+        |-- (socials).tsx         // example.com/socials
 ```
 
 #### 逃离嵌套路由
@@ -353,7 +353,7 @@ export default function BlogPage() {
 
 使用路由分组，可以在不影响 URL 结构的情况下组织路由。由于基于文件的路由依赖文件系统，直接组织文件夹可能不利于项目结构的清晰性。
 
-在 SolidStart 中，路由分组通过在文件夹名称外使用双括号 (()) 来定义：
+在 SolidStart 中，路由分组通过在文件夹名称外使用括号()来定义：
 
 ```
 |-- routes/

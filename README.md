@@ -1,10 +1,12 @@
 # 概述
 
-[Solid ↪](https://docs.solidjs.com/) 是一个新兴的高性能响应式前端框架，其核心设计融合了 React 的声明式开发模式与 Svelte 的编译时优化，同时通过独特的细粒度响应式机制实现了接近原生 JavaScript 的性能表现。
+[Solid ↪](https://docs.solidjs.com/) 是一个现代 JavaScript 框架，旨在构建响应式、高性能的用户界面 (UI)。它优先考虑简单且可预测的开发体验，使其成为各种技能水平的开发人员的理想选择。
+
+Solid 核心设计融合了 React 的声明式开发模式与 Svelte 的编译时优化，同时通过独特的细粒度响应式机制实现了接近原生 JavaScript 的性能表现。
 
 ## 核心概念
 
-**细粒度响应式（Fine-Grained Reactivity）**
+**细粒度响应式**
 
 SolidJS 使用 **Signal**（信号）作为状态管理的基础单元，通过 `createSignal`创建响应式数据。与 React 的虚拟 DOM 不同，**SolidJS 直接追踪数据依赖关系，仅更新受影响的 DOM 节点，避免了虚拟 DOM 的 diff 计算开销。**
 
@@ -85,7 +87,7 @@ $ pnpm create solid
  Create-Solid v0.6.6
 │
 ◆  Project Name
-│  <solid-project>
+│  solid-app # 项目名称，按需填写
 │
 ◆  What type of project would you like to create?
 │  ○ SolidStart
@@ -95,26 +97,28 @@ $ pnpm create solid
 ◆  Use Typescript?
 │  ● Yes / ○ No
 │
-◆ Which template would you like to use?
-│  ○ ts
-│  ○ ts-vitest
-│  ○ ts-uvu
-│  ○ ts-unocss
-│  ● ts-tailwindcss
-│  ○ ts-sass
-│  ○ ts-router
-│  ○ ts-router-file-based
-│  ○ ts-minimal
-│  ○ ts-jest
-│  ○ ts-bootstrap
+◆  Which template would you like to use?
+│  ○ basic
+│  ○ bare
+│  ○ with-vitest
+│  ○ with-uvu
+│  ○ with-unocss
+│  ● with-tailwindcss
+│  ○ with-sass
+│  ○ with-solid-router
+│  ○ with-vite-plugin-pages
+│  ○ with-tanstack-router-config-based
+│  ○ with-tanstack-router-file-based
+│  ○ with-jest
+│  ○ with-bootstrap
 │
 ◑  Creating project...
 │
 ◆  Project created 🎉
 │
-◆  To get started, run: ─╮
+◇  To get started, run: ─╮
 │                        │
-│  cd my-solid-app       │
+│  cd solid-app          │
 │  pnpm install          │
 │  pnpm dev              │
 │                        │
@@ -124,7 +128,7 @@ $ pnpm create solid
 一旦项目创建完成，按照说明安装依赖项并启动开发服务器：
 
 ```
-│  cd solid-project
+│  cd solid-app
 │  pnpm install
 │  pnpm dev
 ```

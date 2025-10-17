@@ -5,13 +5,16 @@ import { Suspense } from "solid-js";
 import "./app.css";
 
 export default function App() {
+  console.log("🚀 App loaded：", performance.now());
   return (
     <Router
-      root={props => (
+      root={(props) => (
         <MetaProvider>
           <Title>SolidStart - Basic</Title>
           <a href="/">Index</a>
           <a href="/about">About</a>
+          <a href="/profile">Profile</a>
+          <a href="/blog">Blog</a>
           <Suspense>{props.children}</Suspense>
         </MetaProvider>
       )}
